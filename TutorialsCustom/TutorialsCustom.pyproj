@@ -1,0 +1,69 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e7d3ab15-092e-47f8-aabd-da287b560075</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>TutorialsCustom.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>TutorialsCustom</Name>
+    <RootNamespace>TutorialsCustom</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CapiCua.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CapiCua_funcio.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Condicionals_0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Condicionals_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Condicionals_Funcio_0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionary_0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Examen2013.py" />
+    <Compile Include="Exercics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="File_Write.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Llistes_0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Practica.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sets_0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TutorialsCustom.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
